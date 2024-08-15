@@ -6,7 +6,7 @@
 
 -- There are four people in the party. Today is June 14th.
 
-SELECT Customers.FirstName,Customers.LastName,Reservations.Date, Reservations.PartySize 
+SELECT Customers.FirstName, Customers.LastName, Reservations.Date, Reservations.PartySize 
 FROM Reservations
 JOIN Customers
 ON Customers.CustomerID = Reservations.CustomerID
