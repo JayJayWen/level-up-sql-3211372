@@ -8,3 +8,9 @@ WHERE EMAIL = 'atapley2j@kinetecoinc.com';
 
 INSERT INTO AnniversaryInvitees
 VALUES(92,3);
+
+UPDATE AnniversaryInvitees
+SET PartySize = 4
+WHERE CustomerID = 92;
+
+SELECT * FROM AnniversaryInvitees;
