@@ -7,5 +7,5 @@ UPDATE Customers
 SET Address = '74 Pine St.', City = 'New York', State = 'NY'
 WHERE CustomerID = 26;
 
-SELECT FirstName FROM Customers
-WHERE FirstName = "Anna';
+SELECT * FROM Customers
+WHERE FirstName = 'Taylor';
