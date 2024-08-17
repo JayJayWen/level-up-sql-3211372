@@ -4,8 +4,12 @@
 -- has moved to 74 Pine St., New York, NY.
 
 UPDATE Customers
-SET Address = '74 Pine St.', City = 'New York', State = 'NY'
-WHERE CustomerID = 26;
+SET Address = '74 Pine St',
+    City = 'New York',
+    State = 'NY'
+WHERE CustomerID = 26
+;
 
-SELECT * FROM Customers
-WHERE FirstName = 'Taylor';
+SELECT Address, City, State FROM Customers
+WHERE FirstName = 'Taylor' and LastName = 'Jenkins'
+;

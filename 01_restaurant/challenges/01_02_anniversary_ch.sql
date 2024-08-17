@@ -9,6 +9,4 @@
 CREATE TABLE AnniversaryInvitees(
     CustomerID INTEGER,
     PartySize INTEGER)
-;
-
-SELECT * FROM AnniversaryInvitees;
+    ;
